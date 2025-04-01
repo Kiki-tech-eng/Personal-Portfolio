@@ -13,10 +13,8 @@
     <title>PERSONAL PORTFOLIO</title>
   </head>
   <body>
-    <div class="bg-[#FFDD55] relative">
-      <div
-        class="bg-[#000000] rounded-b-[35.6px] px-6 fixed w-full top-0 z-100"
-      >
+    <div class="bg-[#FFDD55] w-full">
+      <div class="bg-[#000000] rounded-b-[35.6px] px-6 fixed static z-100">
         <nav
           class="flex justify-between items-center pt-[25px] pb-[24.7px] pl-[61px] pr-[71px]"
         >
@@ -40,7 +38,7 @@
       </div>
 
       <section class="bg-[#FFDD55]">
-        <div class="flex-row flex justify-between items-center pl-8 pt-[150px]">
+        <div class="flex-row flex justify-between items-center pl-8 pt-[10px]">
           <div class="text-left" style="font-family: 'Montserrat', serif">
             <h1
               class="font-[800] text-[64px] leading-[40px] text-[#18191F] mb-8 flex flex-row"
@@ -61,18 +59,18 @@
             </p>
             <div>
               <button
-                class="bg-black text-white text-2xl font-bold w-[180px] h-[50px] rounded-lg shadow-[9px_6px_0px_0px_#00C6AE] mr-[20px] hover:text-white-400"
+                class="bg-black text-white text-2xl font-bold w-[180px] h-[50px] rounded-lg shadow-[9px_6px_0px_0px_#00C6AE] mr-[20px] hover:bg-[#ffffff] hover:text-[#000000] duration-500 ease-in"
               >
                 Hire me
               </button>
               <button
-                class="bg-black text-white text-2xl font-bold w-[200px] h-[50px] rounded-lg shadow-[9px_6px_0px_0px_#00C6AE] mr-[20px]"
+                class="bg-black text-white text-2xl font-bold w-[200px] h-[50px] rounded-lg shadow-[9px_6px_0px_0px_#00C6AE] mr-[20px] hover:bg-[#ffffff] hover:text-[#000000] hover:outline-[1px] duration-300 ease-in"
               >
                 Download CV
               </button>
             </div>
           </div>
-          <div class="flex-row flex justify-between items-end w-[55%]">
+          <div class="flex-row flex justify-between items-end">
             <img
               class="w-[511px] h-[638px] pt-12"
               src=".//Property 1=Variant2.png"
@@ -82,22 +80,22 @@
               class="pl-3 space-y-4 pr-3 fixed right-4 top-1/2 -translate-y-1/2 z-50 mt-20"
             >
               <img
-                class="w-[96px] h-[96px]"
+                class="w-[96px] h-[96px] grayscale hover:grayscale-0"
                 src="./Property 1=insta color.png"
                 alt=""
               />
               <img
-                class="w-[96px] h-[96px]"
+                class="w-[96px] h-[96px] grayscale hover:grayscale-0"
                 src="./Property 1=facebook color.png"
                 alt=""
               />
               <img
-                class="h-[96px] w-[96px]"
+                class="h-[96px] w-[96px] grayscale hover:grayscale-0"
                 src="./Property 1=twitter color.png"
                 alt=""
               />
               <img
-                class="h-[96px] w-[96px]"
+                class="h-[96px] w-[96px] grayscale hover:grayscale-0"
                 src="./Property 1=youtube color.png"
                 alt=""
               />
@@ -112,7 +110,7 @@
           style="font-family: 'Montserrat', serif"
         >
           <img
-            class="w-[511px] h-[638px] pl-[54px] pr-5 pt-[87px] pb-[87px]"
+            class="ml-[54px] mr-5 mt-[87px] mb-[87px] hover:-translate-1/20 shadow-[20px_25px_6px_0px_#000000] duration-500 ease-out "
             src="./Property 1=Default.png"
             alt=""
           />
@@ -140,13 +138,15 @@
               functionality!
             </p>
             <button
-              class="bg-black text-white text-2xl font-bold w-[180px] h-[50px] rounded-lg shadow-[9px_6px_0px_0px_#00C6AE] mr-[20px] hover:text-white-400"
-              style="font-family: 'Montserrat', serif">
+              class="bg-[#000000] text-white text-2xl font-bold w-[180px] h-[50px] rounded-lg shadow-[9px_6px_0px_0px_#00C6AE] mr-[20px] hover:text-white-400 hover:bg-[#ffffff] hover:text-[#000000] duration-500 ease-in hover:outline-[1px]"
+              style="font-family: 'Montserrat', serif"
+            >
               Hire me
             </button>
             <button
-              class="bg-black text-white text-2xl font-bold w-[200px] h-[50px] rounded-lg shadow-[9px_6px_0px_0px_#00C6AE] mr-[20px]"
-              style="font-family: 'Montserrat', serif">
+              class="bg-black text-white text-2xl font-bold w-[200px] h-[50px] rounded-lg shadow-[9px_6px_0px_0px_#00C6AE] mr-[20px] hover:bg-[#ffffff] hover:text-[#000000] duration-500 ease-in hover:outline-[1px]"
+              style="font-family: 'Montserrat', serif"
+            >
               Download CV
             </button>
           </div>
@@ -161,7 +161,9 @@
             >
               Services
             </h1>
-            <p class="text-[#FFFFFF] font-[700] text-[24px] leading-[34px] mb-10">
+            <p
+              class="text-[#FFFFFF] font-[700] text-[24px] leading-[34px] mb-10"
+            >
               Embark on a journey of digital transformation with services that
               blend design brilliance with cutting-edge development.Let's create
               experiences that resonate and application that captivate.
@@ -169,56 +171,60 @@
           </div>
           <div class="flex gap-[156px]">
             <div
-              class="bg-[#A259FF] text-center w-[434px] rounded-[20px] relative"
+              class="bg-[#A259FF] text-center w-[434px] border-[3px] border-[#000000] shadow-[16px_14px_0px_0px_#000000] rounded-[20px] relative"
             >
               <div
-                class="w-[132px] h-[132px] text-[#FFFFFF] font-[800] text-[96px] leading-[40px] absolute -top-6 left-1/2 -translate-x-1/2 bg-[#0ACF83] rounded-full"
+                class="text-[#FFFFFF] font-[800] text-[96px] leading-[40px] absolute -top-6 left-1/2 -translate-x-1/2 transform bg-[#0ACF83] rounded-full pt-[30px] flex items-center justify-center"
               >
                 1
               </div>
-              <div class="pl-5 z-1"style="font-family: 'Montserrat', serif">
+              <div class="pl-10 z-1" style="font-family: 'Montserrat', serif">
                 <h1
-                  class="text-[#FFFFFF] font-[800] text-[40px] leading-[40px] pt-[100px]"
+                  class="text-[#FFFFFF] font-[800] text-[40px] leading-[40px] pt-[100px] text-left"
                 >
                   UI/UX Designer
                 </h1>
                 <p
-                  class="font-[500] text-[28px] leading-[34px] text-[#FFFFFF] pt-4"style="font-family: 'Montserrat', serif"
+                  class="font-[500] text-[28px] leading-[34px] text-[#FFFFFF] pt-5 text-left pr-5"
+                  style="font-family: 'Montserrat', serif"
                 >
                   Crafting captivating interfaces that resonate.From wireframes
                   to polished designs, I make sure your digital presence stands
                   out with user-centric creativity.
                 </p>
                 <button
-                  class="bg-[#FFDD55] text-[#000000] font-[700] text-[32px] leading-[34px] rounded-[10px] px-15 py-3 my-4"style="font-family: 'Montserrat', serif"
+                  class="bg-[#FFDD55] text-[#000000] font-[700] text-[32px] leading-[34px] hover:bg-[#0ACF83] hover:text-[#FFFFFF] rounded-[10px] px-15 py-3 my-4"
+                  style="font-family: 'Montserrat', serif"
                 >
                   Learn More
                 </button>
               </div>
             </div>
             <div
-              class="bg-[#A259FF] text-center w-[434px] rounded-[20px] relative"style="font-family: 'Montserrat', serif"
+              class="bg-[#A259FF] text-center w-[434px] border-[3px] border-[#000000] rounded-[20px] relative shadow-[16px_14px_0px_0px_#000000]"
+              style="font-family: 'Montserrat', serif"
             >
               <div
-                class="text-[#FFFFFF] font-[800] text-[96px] leading-[40px] absolute -top-6 left-1/2 -translate-x-1/2"
+                class="text-[#FFFFFF] font-[800] text-[96px] leading-[40px] absolute -top-6 left-1/2 -translate-x-1/2 transform bg-[#0ACF83] rounded-full flex items-center justify-center"
               >
                 2
               </div>
-              <div>
+              <div class="pl-10 z-1">
                 <h1
-                  class="text-[#FFFFFF] font-[800] text-[40px] leading-[40px] pt-[100px]"
+                  class="text-[#FFFFFF] font-[800] text-[40px] leading-[40px] pt-[100px] text-left"
                 >
                   Flutter Developer
                 </h1>
                 <p
-                  class="font-[500] text-[28px] leading-[34px] text-[#FFFFFF] pt-4 mb-7"style="font-family: 'Montserrat', serif"
+                  class="font-[500] text-[28px] leading-[34px] text-[#FFFFFF] pt-4 mb-7 text-left pr-5"
+                  style="font-family: 'Montserrat', serif"
                 >
                   Turning app ideas into reality. As a Flutter developer, I
                   build sleek, cross-platform applications for a seamless user
                   experience and efficient performance.
                 </p>
                 <button
-                  class="bg-[#FFDD55] text-[#000000] font-[700] text-[32px] leading-[34px] rounded-[10px] px-15 py-3 my-4"
+                  class="bg-[#FFDD55] text-[#000000] font-[700] text-[32px] leading-[34px] hover:bg-[#0ACF83] hover:text-[#FFFFFF] rounded-[10px] px-15 py-3 my-4"
                 >
                   Learn More
                 </button>
@@ -233,7 +239,7 @@
           If you have any Query or Project ideas feel free to
         </p>
         <button
-          class="bg-[#FFDD55] text-[#000000] font-[700] text-[64px] mt-[87px] px-[200px] py-[45px] mb-[132px] mt-[87px] rounded-[47px] leading-[34px]"
+          class="bg-[#FFDD55] text-[#000000] font-[700] text-[64px] mt-[87px] px-[200px] py-[50px] mb-[132px] mt-[87px] hover:bg-[#A259FF] shadow-[-28px_38px_6px_0px_#000000] rounded-[47px] leading-[34px]"
         >
           Contact me
         </button>
@@ -253,22 +259,22 @@
 
         <div class="space-x-4 flex justify-center mt-12">
           <img
-            class="w-[96px] h-[96px]"
+            class="w-[96px] h-[96px] grayscale hover:grayscale-0"
             src="./Property 1=insta color.png"
             alt=""
           />
           <img
-            class="w-[96px] h-[96px]"
+            class="w-[96px] h-[96px] grayscale hover:grayscale-0"
             src="./Property 1=facebook color.png"
             alt=""
           />
           <img
-            class="w-[96px] h-[96px]"
+            class="w-[96px] h-[96px] grayscale hover:grayscale-0"
             src="./Property 1=twitter color.png"
             alt=""
           />
           <img
-            class="w-[96px] h-[96px]"
+            class="w-[96px] h-[96px] grayscale hover:grayscale-0"
             src="./Property 1=youtube color.png"
             alt=""
           />
@@ -276,10 +282,16 @@
         <div class="flex justify-around items-center mt-[90px]">
           <div class="flex items-center space-x-2">
             <img src="./Vector.png" alt="" />
-            <p>Pakistan</p>
+            <p class="text-[25px] font-[500] text-[#000000] leading-[100%]">
+              Pakistan
+            </p>
           </div>
-          <p>&copy;2020,All Rights By Figma Design.</p>
-          <ul class="flex justify-end space-x-3">
+          <p class="text-[#000000] font-[500] text-[25px] leading-[100%]">
+            &copy;2020,All Rights By Figma Design.
+          </p>
+          <ul
+            class="flex justify-end space-x-3 text-[#3B5999] font-[500] text-[25px] leading-[100%]"
+          >
             <li>Guides</li>
             <li>Terms of Use</li>
             <li>Privacy</li>
